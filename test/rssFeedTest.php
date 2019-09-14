@@ -6,7 +6,7 @@ require_once(__DIR__ . '/../models/feeds/rssFeed.php');
 // simple test just to check if correct data is equeal to test data
 final class rssFeedTest extends TestCase
 {
-    public function testCanBeCreatedFromValidEmailAddress(): void
+    public function testOutputOfRssFeedIsCorrect(): void
     {
         $correct_result = [ "title" => "Test article",
                             "link" => "http://test.com",
